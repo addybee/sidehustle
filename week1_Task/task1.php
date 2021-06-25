@@ -17,12 +17,15 @@
                 }
                 return $range;
             }
+            $arr = rangeNum(4,6);
+            echo("$arr<br>");
             
         /*function that takes an array of numbers and returns the sum of these numbers.*/
             function add($numbers){
                 return array_sum($numbers);
             }
-            
+            $result= add($arr);
+            echo($result);
         ?>
     </body>
 </html>
